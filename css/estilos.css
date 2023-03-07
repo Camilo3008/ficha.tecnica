@@ -1,0 +1,21 @@
+body{
+    background-color:#E2F4F1;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+table,th,tr,td{
+    border: 1.5px solid #033F6A ;
+    min-width: 60%;
+    margin: auto;
+    font-size: 1em;
+    background-color: #5b8a7d e;
+
+}
+
+h1{
+    color: #033F6A;
+}
