@@ -1,1 +1,1 @@
-alert("especificaciones harware y software"
+alert("especificaciones harware y software")
