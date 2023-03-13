@@ -2,6 +2,9 @@ body{
     background-color:#E2F4F1;
 }
 
+h1{
+    text-align: center;
+}
 img{
     display: block;
     margin: auto;
