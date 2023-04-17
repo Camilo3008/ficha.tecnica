@@ -14,11 +14,11 @@
     <table>
 
         <tr>
-            <th rowspan="2">Reponsable(coordinador encargado) <input id="responsable" type="text" placeholder="coordinador encargado"></th>
+            <th rowspan="2">Reponsable(coordinador encargado)<br> <input id="responsable" type="text" placeholder="coordinador encargado"></th>
             <th class="titulo">Logo</th>
         </tr>
         <tr>
-            <td><img src="img/inmobiliaria.png" title="logo"></td>
+            <td><input id="imagen" type="file" placeholder="imagen"></td>
         </tr>
         <tr>
             <th class="titulo" colspan="2">Caracteristicas del producto.</th>
@@ -26,49 +26,41 @@
 
         <tr>
             <td>Nombre del producto:</td>
-            <td></td>
+            <td><input id="NombreProducto" type="text" placeholder="Nombre del producto"></td>
         </tr>
 
         <tr>
             <td>Linea de produccion:</td>
-            <td></td>
+            <td><input id="lineaproduc" type="text" placeholder="Linea de produccion"></td>
         </tr>
 
         <tr>
             <td>Verciones anteriores:</td>
-            <td></td>
+            <td><input id="Verc-anteriores" type="number" placeholder="Verciones anteriores"></td>
         </tr>
 
         <tr>
             <td>Vercion actual:</td>
-            <td></td>
+            <td><input type="number" id="verc-actual" placeholder="Vercion actual"></td>
         </tr>
 
         <tr>
-            <td rowspan="3">Modulos:</td>
-            <td>1. </td>
+            <td >Modulos:</td>
+            <td><input id="modulos" type="text" placeholder="Modulos"></td>
         </tr>
 
-        <tr>
-            <td>2. </td>
-        </tr>
-
-        <tr>
-            <td>3. </td>
-        </tr>
-        
         <tr>
             <th class="titulo" colspan="2">Descripcion del producto.</th>
         </tr>
 
         <tr>
             <td>Descripcion general del producto:</td>
-            <td></td>
+            <td><input id="descripciongen" type="text" placeholder="Descripcion general del producto "></td>
         </tr>
 
         <tr>
            <td>Objetivo:</td>
-           <td></td>
+           <td><input id="objetivo" type="text" placeholder="Objetivo"></td>
         </tr>
 
         <tr>
@@ -76,15 +68,8 @@
         </tr>
 
         <tr>
-            <td rowspan="3">Desccripcion:</td>
-            <td>.</td>
-        </tr>
-
-        <tr>
-            <td>.</td>
-        </tr>
-        <tr>
-            <td>.</td>
+            <td>Descripcion:</td>
+            <td><input id="descripcion" type="text" placeholder="Descripcion"></td>
         </tr>
 
         <tr>
@@ -96,28 +81,18 @@
          </tr>
 
          <tr>
-            <td rowspan="2">Harware:</td>
-            <td>.</td>
-         </tr>
-         <tr>
-            <td>.</td>
+            <td>Harware:</td>
+            <td><input id="harwServidor" type="text" placeholder="Harware del servidor"></td>
          </tr>
 
          <tr>
-            <td rowspan="2">Software:</td>
-            <td>.</td>
-         </tr>
-         
-         <tr>
-            <td>.</td>
+            <td>Software:</td>
+            <td><input id="softServidor" type="text" placeholder="Software del servidor"></td>
          </tr>
 
          <tr>
-            <td rowspan="2" >Otros:</td>
-            <td>.</td>
-         </tr>
-         <tr>
-            <td>.</td>
+            <td >Otros:</td>
+            <td><input id="otrosServidor" type="text" placeholder="Otros"></td>
          </tr>
          
          <tr>
@@ -125,43 +100,34 @@
          </tr>
 
          <tr>
-            <td rowspan="2">Harware:</td>
-            <td>.</td>
-         </tr>
-         <tr>
-            <td>.</td>
+            <td >Harware:</td>
+            <td><input id="harwCliente" type="text" placeholder="harware del cliente"></td>
          </tr>
 
          <tr>
-            <td rowspan="2">Software:</td>
-            <td>.</td>
-         </tr>
-         
-         <tr>
-            <td>.</td>
+            <td>Software:</td>
+            <td><input id="softCliente" type="text" placeholder="Software del cliente"></td>
          </tr>
 
          <tr>
-            <td rowspan="2" >Otros:</td>
-            <td>.</td>
+            <td>Otros:</td>
+            <td><input id="otrosCliente" type="text" placeholder="Otros"></td>
          </tr>
-         <tr>
-            <td>.</td>
-         </tr>
+    
          <tr>
             <th class="titulo" colspan="2">Requerimientos</th>
          </tr>
          <tr>
             <td>Requerimientos funcionales generales:</td>
-            <td></td>
+            <td><input id="reqFuncionales" type="text" placeholder="Requerimientos funcionales"></td>
          </tr>
          <tr>
             <td>Requerimientos adicionales:</td>
-            <td></td>
+            <td><input id="reqAdicionales" type="text" placeholder="Requerimientos adicionales"></td>
          </tr>
          <tr>
             <td>clientes del producto:</td>
-            <td></td>
+            <td><input id="clienProducto" type="text" placeholder="Clientes del producto"></td>
          </tr>
         
             <th class="titulo" colspan="2">Historial de modificaciones</th>
@@ -169,22 +135,22 @@
 
          <tr>
             <td>Vercion:</td>
-            <td></td>
+            <td><input id="vercion" type="number" placeholder="Vercion"></td>
         </tr>
 
         <tr>
             <td>Naturaleza del cambio:</td>
-            <td></td>
+            <td><input id="naturalezaCambio" type="text" placeholder="Naturaleza de cambio"></td>
         </tr>
         
         <tr>
             <td>Fecha de aprovacion:</td>
-            <td></td>
+            <td><input id="fechAprovacion" type="date" placeholder="Fecha de aprovacion" ></td>
         </tr>
 
         <tr>
             <td>Fecha de validacion.</td>
-            <td></td>        
+            <td><input id="fechValidacion" type="date" placeholder="Fecha de validacion" ></td>        
         </tr>
 
         <tr>
@@ -193,23 +159,88 @@
 
         <tr>
             <td>Elaboro:</td>
-            <td></td>
+            <td><input id="elaboro" type="file" placeholder="elaboro"></td>
         </tr>
 
         <tr>
             <td>Aprobo:</td>
-            <td></td>
+            <td><input id="aprobo" type="file" placeholder="aprobo" ></td>
         </tr>
 
         <tr>
             <td>Valido:</td>
-            <td></td>
+            <td><input id="valido" type="file" placeholder="Valido"></td>
         </tr>
     </table>
 
-    <button onclick="comprobar()">Enviar</button>
+    <div id="boton"><button class="enviar" onclick="comprobar()">Enviar</button></div>
     <br>
     <br>
-    <p id="respuesta1"></p>
+    <br>
+    <br>
+
+    <div id="contenedor-prins">
+
+        <div class="contenedores">
+        <h1>REGISTRO DE FORMATO DE FICHA TECNICA.</h1>
+        <p id="respuesta1"></p>
+        <p id="respuestaimagen"></p>
+        </div>
+    
+        <div class="contenedores">
+        <h2 class="titulosrespuesta">Caracteristicas del producto:</h2>
+        <p id="respuesta2"></p>
+        <p id="respuesta3"></p>
+        <p id="respuesta4"></p>
+        <p id="respuesta5"></p>
+        </div>
+    
+        <div class="contenedores">
+        <h2 class="titulosrespuesta">Descripcion del producto:</h2>
+        <p id="respuesta6"></p>
+        <p id="respuesta7" ></p>
+        </div>
+    
+        <div class="contenedores">
+        <h2 class="titulosrespuesta">Arquitectura:</h2>
+        <p id="respuesta8" ></p>
+        </div>
+
+        <div class="contenedores">
+        <h2 class="titulosrespuesta">Requerimientos del producto:</h2>
+        <h2>Requisitos del sistema (servidor):</h2>
+        <p id="respuesta9"></p>
+        <p id="respuesta10"></p>
+        <p id="respuesta11" ></p>
+        <h2>Requisitos del sistema (cliente):</h2>
+        <p id="respuesta12"></p>
+        <p id="respuesta13"></p>
+        <p id="respuesta14"></p>
+        </div>
+
+        <div class="contenedores">
+        <h2 class="titulosrespuesta">Requerimientos:</h2>
+        <p id="respuesta15"></p>
+        <p id="respuesta16"></p>
+        <p id="respuesta17"></p>
+        </div>
+
+        <div class="contenedores">
+        <h2 class="titulosrespuesta">Historial de modificaciones:</h2>
+        <p id="respuesta18" ></p>
+        <p id="respuesta19" ></p>
+        <p id="respuesta20" ></p>
+        <p id="respuesta21" ></p>
+        </div>
+
+        <div class="contenedores">
+        <h2 class="titulosrespuesta">Firmas:</h2>
+        <p id="respuesta22" ></p>
+        <p id="respuesta23" ></p>
+        <p id="respuesta24" ></p>
+        </div>
+
+    </div>
+
 
 </body>

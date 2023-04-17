@@ -1,30 +1,77 @@
 body{
     background-color:#e3e3e3;
 }
-
 h1{
     text-align: center;
-    color: #012239;
+    color: rgb(0, 16, 61);
     font-size: 40px;
 }
 img{
     display: block;
     margin: auto;
 }
-
 table,th,tr,td{
-    border: 1.8px solid rgb(0, 16, 61); ;
+    border: 2px solid rgb(0, 16, 61);
     min-width: 60%;
     margin: auto;
     font-size: 1em;
-
+    border-collapse: collapse;
 }
-
 th,tr,td{
     background-color: #a7b7ef;
 }
-
 .titulo{
     background-color: rgb(0, 16, 61);
     color: #d1dde0;
+}
+#boton{
+    text-align: center;
+}
+.enviar{
+    background-color: rgb(0, 16, 61);
+    border-radius: 17px;
+    color: #a7b7ef;
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 3px solid #a7b7ef ;
+}
+.enviar:hover{
+    background-color: #a7b7ef;
+    color: rgb(0, 16, 61);
+    border: 3px solid rgb(0, 16, 61);
+}
+input{
+    width:500px ;
+    height: 30px;
+    background-color: #e2eeff;
+    color: rgb(0, 0, 0);
+}
+
+input:hover{
+    border: 2px solid rgb(0, 16, 61);
+}
+
+.titulosrespuesta{
+    font-size: 30px;
+    font-family: 300;
+    color: rgb(0, 16, 61);
+}
+
+#contenedor-prins{
+    border-top: 40px solid rgb(0, 16, 61);
+}
+
+.contenedores{
+    background-color: #a7b7ef;
+    margin: 10px 50px;
+    border: 3px solid rgb(0, 16, 61);
+    padding-left: 7px;
+}
+h3{
+    font-size: 23px;
+    font-weight: 200;
+
 }
